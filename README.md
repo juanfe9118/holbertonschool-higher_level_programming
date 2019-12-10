@@ -1,5 +1,8 @@
-# Holbertonschool Higher Level Programming
+# Holberton School Higher Level Programming
 ### This Directory is for learning higher level programming languages starting with Python, in has many sub directories which will contain practice projects
 
 #### 0x00-python-hello_world
-* This directory is the beginning steps of Python for Holberton school. Below is a description of all the files contained in this directory.
+* This directory is the beginning steps of Python for Holberton school.
+
+#### 0x01-python-if_else_loops_functions
+* This directory is for learning how to use the if/else statements as well as loops in Python
