@@ -1,4 +1,5 @@
-main.py
+*main.py
 *~
 *#
 *.exe
+__pycache__
