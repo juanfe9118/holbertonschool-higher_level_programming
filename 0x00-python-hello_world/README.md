@@ -40,3 +40,12 @@
 
 #### 10-check_cycle.c
 * Function in C that checks if a singly linked list has a cycle in it.
+
+#### 100-write.py
+*Python script that prints exactly 'and that piece of art is useful - Dora Korpar, 2015-10-19', followed by a new line.
+
+#### 101-compile
+* Shell script that compiles a Python script file.
+
+#### 102-magic_calculation.py
+* Python function that prints the Python bytecode of its function.
