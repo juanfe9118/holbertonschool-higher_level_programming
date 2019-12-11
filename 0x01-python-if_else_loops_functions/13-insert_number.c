@@ -34,10 +34,10 @@ listint_t *insert_node(listint_t **head, int number)
 
 	while (number > node_af_ins->n)
 	{
-		if (node_af_ins == NULL)
-			break;
 		node_b4_ins = node_b4_ins->next;
 		node_af_ins = node_af_ins->next;
+		if (node_af_ins == NULL)
+			break;
 	}
 	new_node->next = node_b4_ins->next;
 	node_b4_ins->next = new_node;
