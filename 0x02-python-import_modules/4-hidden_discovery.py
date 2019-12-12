@@ -2,6 +2,7 @@
 import hidden_4
 
 array = dir(hidden_4)
-for i in array:
-    if i[:2] != '__':
-        print(i)
+if __name__ == "__main__":
+    for i in array:
+        if i[:2] != '__':
+            print(i)
