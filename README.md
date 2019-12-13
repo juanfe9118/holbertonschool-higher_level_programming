@@ -1,5 +1,5 @@
 # Holberton School Higher Level Programming
-### This Directory is for learning higher level programming languages starting with Python, in has many sub directories which will contain practice projects
+### This Directory is for learning higher level programming languages starting with Python, it has many sub directories which will contain practice projects. Here is a brief description of each one:
 
 #### 0x00-python-hello_world
 * This directory is the beginning steps of Python for Holberton school.
