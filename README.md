@@ -9,3 +9,6 @@
 
 #### 0x02-python-import_modules
 * This directory is for learning about modules as well as how to use the import call in Python.
+
+#### 0x03-python-data_structures
+* This directory is for learning about data structures such as lists and tuplets in Python.
