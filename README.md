@@ -12,3 +12,6 @@
 
 #### 0x03-python-data_structures
 * This directory is for learning about data structures such as lists and tuplets in Python.
+
+#### 0x04-python-more_data_structures
+* This directory is for learning about more data structures in Python.
