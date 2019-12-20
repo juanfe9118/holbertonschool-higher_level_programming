@@ -7,4 +7,3 @@ def search_replace(my_list, search, replace):
         j = new.index(search)
         new[j] = replace
     return new
-
