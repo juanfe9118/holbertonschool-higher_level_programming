@@ -15,3 +15,6 @@
 
 #### 0x04-python-more_data_structures
 * This directory is for learning about more data structures in Python.
+
+#### 0x05-python-exceptions
+* This directory is for learning about exceptions in Python.
