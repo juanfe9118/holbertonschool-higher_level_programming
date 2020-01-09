@@ -18,3 +18,6 @@
 
 #### 0x05-python-exceptions
 * This directory is for learning about exceptions in Python.
+
+#### 0x06-python-classes
+* This directory is for learning about classes and objects in Python.

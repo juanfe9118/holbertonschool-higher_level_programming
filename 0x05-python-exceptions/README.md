@@ -1,5 +1,5 @@
 # Python - Exceptions
-### This directory is for learning about more data structures in Python. Below is a description of all the files contained in this directory.
+### This directory is for learning about exceptions in Python. Below is a description of all the files contained in this directory.
 
 #### 0-safe_print_list.py
 * Python function that prints x elements of a list.
