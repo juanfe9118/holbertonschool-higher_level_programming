@@ -21,3 +21,6 @@
 
 #### 0x06-python-classes
 * This directory is for learning about classes and objects in Python.
+
+#### 0x07-python-test_driven_development
+* This directory is for learning how to write tests for Python code.
