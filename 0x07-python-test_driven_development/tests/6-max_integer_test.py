@@ -19,7 +19,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([87]), 87)
         self.assertEqual(max_integer([6, 8, 10e1000]), float('inf'))
         self.assertEqual(max_integer([87, float('nan'), 5]), 87)
-        self.assertEqual(max_integer("Holberton"), 'o')
+        self.assertEqual(max_integer("Holberton"), 't')
 
 if __name__ == '__main__':
     unittest.main()
