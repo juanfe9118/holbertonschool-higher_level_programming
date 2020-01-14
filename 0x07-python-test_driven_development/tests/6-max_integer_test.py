@@ -17,3 +17,6 @@ class TestMax(unittest.TestCase):
         self.assertEqual(max_integer(73210584, 58, -68, 3), 73210584)
         self.assertEqual(max_integer(1, 6), 6)
         self.assertEqual(max_integer(87), 87)
+
+if __name__ == "__main__":
+    unittest.main()
