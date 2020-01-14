@@ -24,3 +24,6 @@
 
 #### 0x07-python-test_driven_development
 * This directory is for learning how to write tests for Python code.
+
+#### 0x08-python-more_classes
+* This directory is for learning about more classes and objects in Python.
