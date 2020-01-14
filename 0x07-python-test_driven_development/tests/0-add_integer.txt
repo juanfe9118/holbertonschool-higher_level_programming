@@ -44,8 +44,8 @@ Traceback (most recent call last):
 ...
 TypeError: a must be an integer
 
->>> len(__import__("0-add_integer").__doc__) > 4
+>>> len(__import__("0-add_integer").__doc__) > 0
 True
 
->>> len(__import__("0-add_integer").add_integer.__doc__) > 4
+>>> len(__import__("0-add_integer").add_integer.__doc__) > 0
 True

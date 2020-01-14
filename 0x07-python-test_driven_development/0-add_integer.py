@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Add integer module."""
 
+
 def add_integer(a, b=98):
     """
     Add integer function.
