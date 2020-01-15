@@ -38,3 +38,26 @@ class Rectangle:
                 raise ValueError('height must be >= 0')
         else:
             raise TypeError('height must be an integer')
+
+    def area(self):
+        """Returns the area of the rectangle"""
+        return int(self.__width) * int(self.__height)
+
+    def perimeter(self):
+        """Returns the perimeter of the rectangle"""
+        if self.height == 0 or self.width == 0:
+            return 0
+        return (2 * int(self.__width)) + (2 * int(self.__height))
+
+    def __str__(self):
+        """Prints the rectangle"""
+        strn = ""
+        if self.height == 0 or self.width == 0:
+            return strn
+        strn += ('#' * self.width + '\n') * self.height
+        return strn[:-1]
+
+    def __repr__(self):
+        """Returns a string representation of the rectangle"""
+        return "{}({}, {})".format(type(self).__name__,
+                                   self.width, self.height)
