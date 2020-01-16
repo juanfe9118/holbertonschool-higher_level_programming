@@ -27,3 +27,6 @@
 
 #### 0x08-python-more_classes
 * This directory is for learning about more classes and objects in Python.
+
+#### 0x09-python-everything_is_object
+* This directory is for showing how everything is an object in Python.
