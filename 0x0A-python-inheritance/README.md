@@ -36,3 +36,6 @@
 
 #### [11-square.py](./11-square.py)
 * Class `Square` that inherits from `Rectangle` (`9-rectangle.py`).
+
+#### [100-my_int.py](./100-my_int.py)
+* Class `MyInt` that inherits from `int`.
