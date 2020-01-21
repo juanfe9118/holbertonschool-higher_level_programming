@@ -1,0 +1,82 @@
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+>>> len(__import__("7-base_geometry").__doc__) > 0
+True
+
+>>> len(__import__("7-base_geometry").BaseGeometry.__doc__) > 0
+True
+
+>>> len(__import__("7-base_geometry").BaseGeometry.integer_validator.__doc__) > 0
+True
+
+>>> geo = BaseGeometry()
+>>> geo.integer_validator("my_i", 6)
+
+>>> geo.integer_validator("length", 68)
+
+>>> geo.integer_validator("", 15)
+
+>>> geo.integer_validator("str", "Juan")
+Traceback (most recent call last):
+...
+TypeError: str must be an integer
+
+>>> geo.integer_validator("year", 0)
+Traceback (most recent call last):
+...
+ValueError: year must be greater than 0
+
+>>> geo.integer_validator("cash", -100)
+Traceback (most recent call last):
+...
+ValueError: cash must be greater than 0
+
+>>> geo.integer_validator("float", 6.98)
+Traceback (most recent call last):
+...
+TypeError: float must be an integer
+
+>>> geo.integer_validator("NN", float('nan'))
+Traceback (most recent call last):
+...
+TypeError: NN must be an integer
+
+>>> geo.integer_validator("inf", float('inf'))
+Traceback (most recent call last):
+...
+TypeError: inf must be an integer
+
+>>> geo.integer_validator("None", None)
+Traceback (most recent call last):
+...
+TypeError: None must be an integer
+
+>>> geo.integer_validator("boolean", True)
+Traceback (most recent call last):
+...
+TypeError: boolean must be an integer
+
+>>> geo.integer_validator("list", [4, 5, 6])
+Traceback (most recent call last):
+...
+TypeError: list must be an integer
+
+>>> geo.integer_validator("tuple", (1, 2, 3))
+Traceback (most recent call last):
+...
+TypeError: tuple must be an integer
+
+>>> geo.integer_validator("set", {1, 2, 3})
+Traceback (most recent call last):
+...
+TypeError: set must be an integer
+
+>>> geo.integer_validator()
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+>>> geo.integer_validator("name")
+Traceback (most recent call last):
+...
+TypeError: integer_validator() missing 1 required positional argument: 'value'
