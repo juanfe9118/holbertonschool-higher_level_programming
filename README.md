@@ -33,3 +33,6 @@
 
 #### [0x0A-python-inheritance](./0x0A-python-inheritance)
 * This directory is for learning about Python inheritance.
+
+#### [0x0B-python-input_output](./0x0B-python-input_output)
+* This directory is for learning about file input/output with Python.
