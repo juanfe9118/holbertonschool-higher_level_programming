@@ -36,3 +36,6 @@
 
 #### [0x0B-python-input_output](./0x0B-python-input_output)
 * This directory is for learning about file input/output with Python.
+
+#### [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle)
+* This directory is for learning about JSON, Serialization/Deserialization, and `*args` and `**kwargs`
