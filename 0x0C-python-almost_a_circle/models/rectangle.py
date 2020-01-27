@@ -21,7 +21,13 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, value):
-        self.__width = value
+        if isinstance(value, int):
+            if value > 0:
+                self.__width = value
+            else:
+                raise ValueError('width must be > 0')
+        else:
+            raise TypeError('width must be an integer')
 
     @property
     def height(self):
@@ -30,7 +36,13 @@ class Rectangle(Base):
 
     @height.setter
     def height(self, value):
-        self.__height = value
+        if isinstance(value, int):
+            if value > 0:
+                self.__height = value
+            else:
+                raise ValueError('height must be > 0')
+        else:
+            raise TypeError('height must be an integer')
 
     @property
     def x(self):
@@ -39,7 +51,13 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
-        self.__x = value
+        if isinstance(value, int):
+            if value >= 0:
+                self.__x = value
+            else:
+                raise ValueError('x must be >= 0')
+        else:
+            raise TypeError('x must be an integer')
 
     @property
     def y(self):
@@ -48,4 +66,25 @@ class Rectangle(Base):
 
     @y.setter
     def y(self, value):
-        self.__y = value
+        if isinstance(value, int):
+            if value >= 0:
+                self.__y = value
+            else:
+                raise ValueError('y must be >= 0')
+        else:
+            raise TypeError('y must be an integer')
+
+    def area(self):
+        """Returns the area of the rectangle"""
+        return self.__width * self.__height
+
+    def display(self):
+        """Prints in stdout the Rectangle instance with the character #"""
+        for i in range(self.__height):
+            print('#' * self.width)
+
+    def __str__(self):
+        """Returns the description of the Rectangle instance"""
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x,
+                                                       self.__y, self.__width,
+                                                       self.__height)
