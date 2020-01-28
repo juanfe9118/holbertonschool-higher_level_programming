@@ -105,3 +105,6 @@ class TestCases(unittest.TestCase):
         a = Square(5, 4, 3, 2)
         s = "[Square] (2) 4/3 - 5"
         self.assertEqual(str(a), s)
+
+if __name__ == '__main__':
+    unittest.main()
