@@ -6,6 +6,9 @@ import unittest
 from models.rectangle import Rectangle
 from models.square import Square
 from models.base import Base
+import models.rectangle
+import models.square
+import models.base
 
 class TestCases(unittest.TestCase):
     """Class for all the tests"""
