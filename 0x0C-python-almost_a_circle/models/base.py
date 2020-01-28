@@ -30,3 +30,30 @@ class Base:
             dic = [a.to_dictionary() for a in list_objs]
         with open(flname, 'w') as f:
             f.write(cls.to_json_string(dic))
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Returns the list of the JSON string representation json_string"""
+        if json_string is None or not json_string:
+            return []
+        return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """Returns an instance with all attributes already set"""
+        if cls.__name__ == 'Square':
+            new_base = cls(1)
+        else:
+            new_base = cls(1, 1)
+        cls.update(new_base, **dictionary)
+        return new_base
+
+    @classmethod
+    def load_from_file(cls):
+        """Returns a list of instances"""
+        flname = cls.__name__ + '.json'
+        if path.isfile(flname):
+            with open(flname, 'r') as f:
+                my_l = cls.from_json_string(f.read())
+            return [cls.create(**a) for a in my_l]
+        return []
