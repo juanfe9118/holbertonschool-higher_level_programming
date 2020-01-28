@@ -10,6 +10,7 @@ import models.rectangle
 import models.square
 import models.base
 
+
 class TestSquare(unittest.TestCase):
     """Class for all the tests"""
 

@@ -10,6 +10,7 @@ import models.rectangle
 import models.square
 import models.base
 
+
 class TestBase(unittest.TestCase):
     """Class for the tests"""
 
