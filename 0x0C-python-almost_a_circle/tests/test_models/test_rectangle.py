@@ -51,12 +51,6 @@ class Test_Rectangle(unittest.TestCase):
         with self.assertRaises(ValueError, msg='y must be > 0'):
             r = Rectangle(3, 1, 9, -9)
 
-        a = Rectangle(4, 6)
-        b = a.area()
-        self.assertEqual(b, 24)
-        a = Rectangle(4, 4, 3, 3)
-        s = "\n\n\n   ####\n   ####\n   ####\n   ####\n"
-        self.assertEqual(a.display(), s)
         a = Rectangle(1, 2, 3, 4, 5)
         s = "[Rectangle] (5) 3/4 - 1/2"
         self.assertEqual(str(a), s)

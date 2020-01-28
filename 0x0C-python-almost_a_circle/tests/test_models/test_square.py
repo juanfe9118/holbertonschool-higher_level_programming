@@ -19,12 +19,12 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(a.size, 2)
         self.assertEqual(a.x, 0)
         self.assertEqual(a.y, 0)
-        self.assertEqual(a.id, 7)
+        self.assertEqual(a.id, 5)
         b = Square(3, 4, 5)
         self.assertEqual(b.size, 3)
         self.assertEqual(b.x, 4)
         self.assertEqual(b.y, 5)
-        self.assertEqual(b.id, 8)
+        self.assertEqual(b.id, 6)
         c = Square(6, 5, 4, 12)
         self.assertEqual(c.size, 6)
         self.assertEqual(c.x, 5)
@@ -44,11 +44,6 @@ class TestSquare(unittest.TestCase):
         with self.assertRaises(ValueError, msg='y must be > 0'):
             s = Square(6, 7, -4)
 
-        a = Square(6, 8)
-        self.assertEqual(a.area(), 36)
-        a = Square(3, 3, 2)
-        s = "\n\n   ###\n   ###\n   ###\n"
-        self.assertEqual(a.display(), s)
         a = Square(5, 4, 3, 2)
         s = "[Square] (2) 4/3 - 5"
         self.assertEqual(str(a), s)
