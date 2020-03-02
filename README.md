@@ -39,3 +39,6 @@
 
 #### [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle)
 * This directory is for learning about JSON, Serialization/Deserialization, and `*args` and `**kwargs`
+
+#### [0x0D-SQL_introduction](./0x0D-SQL_introduction)
+* This directory is for taking the fist steps in SQL.
