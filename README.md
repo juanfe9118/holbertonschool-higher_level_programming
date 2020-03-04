@@ -42,3 +42,6 @@
 
 #### [0x0D-SQL_introduction](./0x0D-SQL_introduction)
 * This directory is for taking the fist steps in SQL.
+
+#### [0x0E-SQL_more_queries](./0x0E-SQL_more_queries)
+* This directory is for continuing practicing SQL.
