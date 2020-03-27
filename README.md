@@ -45,3 +45,6 @@
 
 #### [0x0E-SQL_more_queries](./0x0E-SQL_more_queries)
 * This directory is for continuing practicing SQL.
+
+#### [0x0F-python-object_relational_mapping](./0x0F-python-object_relational_mapping)
+* This directory is for learning about object relational mapping in Python.
