@@ -16,7 +16,8 @@ if __name__ == "__main__":
     # Instance of the Session
     ses = Session()
     # Make a query
-    res = ses.query(State).filter(State.name.like(func.binary('%a%'))).order_by(State.id).all()
+    res = ses.query(State).filter(State.name.like(func.binary('%a%')))\
+        .order_by(State.id).all()
     for item in res:
         print('{}: {}'.format(item.id, item.name))
     # Close the instance of session
