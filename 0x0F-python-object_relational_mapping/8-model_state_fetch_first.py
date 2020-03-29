@@ -18,7 +18,7 @@ if __name__ == "__main__":
     res = ses.query(State).first()
     if not res:
         print("Nothing")
-    for item in res:
-        print('{}: {}'.format(item.id, item.name))
+    else:
+        print('{}: {}'.format(res.id, res.name))
     # Close the instance of session
     ses.close()
