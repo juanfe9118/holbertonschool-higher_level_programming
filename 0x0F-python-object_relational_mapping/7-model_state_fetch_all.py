@@ -9,6 +9,7 @@ if __name__ == "__main__":
     db = create_engine(
         "mysql+mysqldb://{}:{}@localhost/{}".format(argv[1], argv[2], argv[3]),
         pool_pre_ping=True)
+    Base.metadata.create_all(db)
     # Create a premade "Session" class
     Session = sessionmaker(bind=db)
     # Instance of the Session
