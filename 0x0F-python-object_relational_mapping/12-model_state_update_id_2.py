@@ -16,7 +16,8 @@ if __name__ == "__main__":
     # Instance of the Session
     ses = Session()
     # Make a query
-    ses.query(State).filter_by(id=2).update({State.name: "New Mexico"}, synchronize_session=False)
+    ses.query(State).filter_by(id=2).update({State.name: "New Mexico"},
+                                            synchronize_session=False)
     # Save changes
     ses.commit()
     # Close the instance of session
