@@ -14,11 +14,11 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=db)
     # Instance of the Session
     ses = Session()
-    n_state = State(name="Lousiana")
+    n_state = State(name="Louisiana")
     ses.add(n_state)
     ses.commit()
     # Make a query
-    res = ses.query(State).filter_by(name="Lousiana").first()
+    res = ses.query(State).filter_by(name="Louisiana").first()
     print(res.id)
     # Close the instance of session
     ses.close()
