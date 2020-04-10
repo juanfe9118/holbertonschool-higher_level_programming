@@ -16,6 +16,7 @@ def find_peak(list_of_integers):
                                  list_of_integers[-1])
     return list_of_integers[0]
 
+
 def find_peak_rec(_list, start, end):
     """Finds the peak recursively"""
     if end - start < 2:
