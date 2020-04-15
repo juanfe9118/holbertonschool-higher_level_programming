@@ -51,3 +51,6 @@
 
 #### [0x10-python-network_0](./0x10-python-network_0)
 * This directory is for learning about networking in Python.
+
+#### [0x11-python-network_1](./0x11-python-network_1)
+* This directory is for continuing learning about networking in Python.
