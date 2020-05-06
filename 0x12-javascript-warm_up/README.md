@@ -43,4 +43,16 @@
 #### [13-add.js](./13-add.js)
 * JS script that returns the addition of 2 integers.
 
+#### [100-let_me_const.js](./100-let_me_const.js)
+* JS script that modifies the value of myVar to 333.
+
+#### [101-call_me_moby.js](./101-call_me_moby.js)
+* JS script that executes x times a function.
+
+#### [102-add_me_maybe.js](./102-add_me_maybe.js)
+* JS script that increments and calls a function.
+
+#### [103-object_fct.js](./103-object_fct.js)
+* JS script that increments integer value.
+
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/standard/semistandard)
