@@ -54,3 +54,6 @@
 
 #### [0x11-python-network_1](./0x11-python-network_1)
 * This directory is for continuing learning about networking in Python.
+
+#### [0x12-javascript-warm_up](./0x12-javascript-warm_up)
+* This directory is for learning about Javascript.
