@@ -29,4 +29,4 @@
 * JS function that returns the reversed version of a list.
 
 #### []
->> For i = 0;
+> For i = 0;
