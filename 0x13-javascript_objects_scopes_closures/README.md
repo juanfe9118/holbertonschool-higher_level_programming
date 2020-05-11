@@ -28,5 +28,8 @@
 #### [8-esrever.js](./8-esrever.js)
 * JS function that returns the reversed version of a list.
 
-#### []
-> For i = 0;
+#### [9-logme.js](./9-logme.js)
+* JS function that prints the number of arguments already printed and the new argument value.
+
+#### [10-converter.js](./10-converter.js)
+* JS function that converts a number from base 10 to another base passed as argument.
