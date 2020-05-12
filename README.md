@@ -60,3 +60,6 @@
 
 #### [0x13-javascript_objects_scopes_closures](./0x13-javascript_objects_scopes_closures)
 * This directory is for learning about Javascript OOP.
+
+#### [0x14-javascript-web_scraping](./0x14-javascript-web_scraping)
+* This directory is for learning web scraping with Javascript.
