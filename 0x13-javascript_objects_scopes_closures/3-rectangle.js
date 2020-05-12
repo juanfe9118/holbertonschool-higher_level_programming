@@ -2,9 +2,16 @@
 // Rectangle class that has a constructor with height and width
 class Rectangle {
   constructor (w, h) {
-    if (Number.isInteger(h) && Number.isInteger(w) && h > 0 && w > 0) {
-      this.height = h;
+    if (Number.isInteger(w) && Number.isInteger(h) && w > 0 && h > 0) {
       this.width = w;
+      this.height = h;
+    }
+  }
+
+  print() {
+    let p_char = "X"
+    for (let i = 0; i < this.height; i++) {
+        console.log(p_char.repeat(this.width))
     }
   }
 }
