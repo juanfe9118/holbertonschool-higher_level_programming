@@ -7,5 +7,5 @@ fs.readFile(path, 'utf-8', (err, data) => {
   if (err) {
     console.log(err);
   }
-  console.log(data);
+    process.stdout.write(data);
 });
