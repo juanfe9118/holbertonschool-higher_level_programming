@@ -8,8 +8,7 @@ class Rectangle {
     }
   }
 
-  print () {
-    const pChar = 'X';
+  print (pChar = 'X') {
     for (let i = 0; i < this.height; i++) {
       console.log(pChar.repeat(this.width));
     }
