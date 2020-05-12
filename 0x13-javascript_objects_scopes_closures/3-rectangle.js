@@ -8,10 +8,10 @@ class Rectangle {
     }
   }
 
-  print() {
-    let p_char = "X"
+  print () {
+    const p_char = 'X';
     for (let i = 0; i < this.height; i++) {
-        console.log(p_char.repeat(this.width))
+      console.log(p_char.repeat(this.width));
     }
   }
 }
