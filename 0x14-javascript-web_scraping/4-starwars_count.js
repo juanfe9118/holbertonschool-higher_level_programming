@@ -11,7 +11,7 @@ request(url, (error, response, body) => {
   const films = JSON.parse(body).results;
   for (const film of films) {
     for (const person of film.characters) {
-      if (person === 'https://swapi-api.hbtn.io/api/people/18/') {
+      if (person.endsWith('/18/')) {
         movieCount += 1;
       }
     }
