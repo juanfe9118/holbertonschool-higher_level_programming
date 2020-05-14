@@ -63,3 +63,6 @@
 
 #### [0x14-javascript-web_scraping](./0x14-javascript-web_scraping)
 * This directory is for learning web scraping with Javascript.
+
+#### [0x15-javascript-web_jquery](./0x15-javascript-web_jquery)
+* This directory is for learning about jQuery.
